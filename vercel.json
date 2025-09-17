@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/cedar-tts.js": {
+      "maxDuration": 30
+    }
+  }
+}

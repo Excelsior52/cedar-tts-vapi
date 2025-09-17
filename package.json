@@ -1,0 +1,16 @@
+{
+  "name": "cedar-tts-vapi",
+  "version": "1.0.0",
+  "description": "Cedar TTS endpoint pour Vapi",
+  "main": "api/cedar-tts.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
