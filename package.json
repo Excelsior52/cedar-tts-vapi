@@ -1,5 +1,11 @@
 {
-  "name": "cedar-tts-vapi",
+  "name": "azure-tts-vapi",
   "version": "1.0.0",
-  "description": "Cedar TTS endpoint pour Vapi"
+  "description": "Azure TTS endpoint pour Vapi avec voix françaises (Denise, Henri, Vivienne)",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }
