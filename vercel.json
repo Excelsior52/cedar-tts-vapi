@@ -1,7 +1,11 @@
 {
   "functions": {
-    "api/cedar-tts.js": {
+    "api/azure-tts.js": {
       "maxDuration": 30
     }
+  },
+  "env": {
+    "AZURE_SPEECH_KEY": "@azure-speech-key",
+    "AZURE_SPEECH_REGION": "@azure-speech-region"
   }
 }
